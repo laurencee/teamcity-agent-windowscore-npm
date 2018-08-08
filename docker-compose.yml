@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   teamcity-agent:
-    image: teamcity-agent
+    image: teamcity-agent-windowscore-npm
     build: .
     ports:
       - 9090:9090
