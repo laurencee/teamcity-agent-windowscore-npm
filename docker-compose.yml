@@ -1,8 +1,8 @@
-version: '2.1'
+version: '3.1'
 
 services:
   teamcity-agent:
-    image: teamcity-agent-windowscore-npm
+    image: laurencee/teamcity-agent-windowscore-npm:teamcity-agent-2018.1.2-windowsservercore-ltsc2016
     build: .
     ports:
       - 9090:9090

@@ -1,5 +1,5 @@
 
-FROM jetbrains/teamcity-agent:2018.1.1-windowsservercore-ltsc2016
+FROM jetbrains/teamcity-agent:2018.1.2-windowsservercore-ltsc2016
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
